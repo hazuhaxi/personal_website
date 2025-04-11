@@ -151,7 +151,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			color: #ffffff !important;
 		}
 
 	strong, b {
@@ -1864,7 +1864,7 @@ input, select, textarea {
 			display: inline-block;
 			text-align: center;
 			line-height: 2.65em;
-			color: inherit;
+			color: #18a6e7;
 		}
 
 			.icon.style2:before {
@@ -1872,7 +1872,7 @@ input, select, textarea {
 			}
 
 			.icon.style2:hover {
-				color: #790a24;
+				color: #f2849e;
 				border-color: #f2849e;
 			}
 
@@ -1885,8 +1885,8 @@ input, select, textarea {
 			}
 
 			.icon.style3:hover {
-				color: #ffffff;
-				border-color: #4284ff;
+				color: #18a6e7;
+				border-color: #18a6e7;
 			}
 
 			.icon.style3:active {
@@ -2864,7 +2864,7 @@ input, select, textarea {
 		#header .logo {
 			display: block;
 			border-bottom: 0;
-			color: inherit;
+			color: #000000;
 			font-weight: 900;
 			letter-spacing: 0.35em;
 			margin: 0 0 2.5em 0;
