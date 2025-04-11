@@ -1851,16 +1851,45 @@ input, select, textarea {
 			color: inherit;
 		}
 
+		.icon.style3 {
+			-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			background-color: transparent;
+			border: solid 1px #c9c9c9;
+			border-radius: 4px;
+			width: 2.65em;
+			height: 2.65em;
+			display: inline-block;
+			text-align: center;
+			line-height: 2.65em;
+			color: inherit;
+		}
+
 			.icon.style2:before {
 				font-size: 1.1em;
 			}
 
 			.icon.style2:hover {
-				color: #f2849e;
+				color: #790a24;
 				border-color: #f2849e;
 			}
 
 			.icon.style2:active {
+				background-color: rgba(242, 132, 158, 0.1);
+			}
+
+			.icon.style3:before {
+				font-size: 1.1em;
+			}
+
+			.icon.style3:hover {
+				color: #ffffff;
+				border-color: #4284ff;
+			}
+
+			.icon.style3:active {
 				background-color: rgba(242, 132, 158, 0.1);
 			}
 
@@ -2572,7 +2601,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
