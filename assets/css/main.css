@@ -3002,6 +3002,7 @@ input, select, textarea {
 			transition: opacity 0.45s ease;
 			-webkit-overflow-scrolling: touch;
 			position: absolute;
+			justify-content: center;  
 			top: 0;
 			left: 0;
 			width: 100%;
