@@ -33,7 +33,7 @@
 						<article class="thumb">
 							<a href="images2/fulls/01.jpg" class="image"><img src="images2/thumbs/01.jpg" alt="" /></a>
 							<h2>Natalie Johnson</h2>
-							<p>Lovely AI character made by Mingey.</p>
+							<p class="description">Lovely AI character made by Mingey.</p>
 						</article>
 						<article class="thumb">
 							<a href="images2/fulls/02.jpg" class="image"><img src="images2/thumbs/02.jpg" alt="" /></a>
@@ -101,6 +101,26 @@
 			<script src="assets2/js/breakpoints.min.js"></script>
 			<script src="assets2/js/util.js"></script>
 			<script src="assets2/js/main.js"></script>
+			<script>
+				document.addEventListener("DOMContentLoaded", function () {
+				  const thumbs = document.querySelectorAll(".thumb");
+			  
+				  thumbs.forEach(function (thumb) {
+					thumb.addEventListener("click", function () {
+					  const description = thumb.querySelector(".description");
+					  if (description) {
+						// 切換顯示與隱藏
+						if (description.style.display === "block") {
+						  description.style.display = "none";
+						} else {
+						  description.style.display = "block";
+						}
+					  }
+					});
+				  });
+				});
+			  </script>
+			  
 
 	</body>
 </html>
